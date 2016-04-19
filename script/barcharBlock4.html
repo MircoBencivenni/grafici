@@ -3,6 +3,47 @@
 <body>
 <h1>Block 4</h1>
 <script src="https://d3js.org/d3.v3.min.js"></script>
+ Valore da ricercare: <input type="text" id="number">
+    <br/>
+    <button onclick="finder()" target="_blank">tryalo</button>
+    <br/>
+    <p id="demo"></p>
+    
+<body>
+   <script> 
+   
+   function finder(){
+   
+    d3.csv("data/tridameasures.csv", function(data) {
+    
+        var numb = document.getElementById("number").value;
+            
+        var arri = [];
+ 
+        data.forEach(function (d) {
+                
+            if(d.Statementsatblocklevel4 == numb){
+                    
+                arri.push(d.FileName);
+                    
+            };
+                
+        });
+                
+        var s = 0
+        
+        while(s<arri.length){
+        
+        document.write(arri[s]+"<br/>");
+        
+        s+=1
+        };
+                
+    });
+            
+};
+    
+</script>
 <script>
 
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
@@ -30,7 +71,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("block4data.csv", type, function(error, data) {
+d3.csv("data/block4data.csv", type, function(error, data) {
   if (error) throw error;
 
   x.domain(data.map(function(d) { return d.letter; }));
