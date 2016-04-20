@@ -3,8 +3,7 @@ Script
 
 File aggiornati con aggiunta di un sistema di ricerca dati.
 
-GENERALITÁ
-----------
+###GENERALITÁ
 
 I file contengono il grafico ad istogramma riguardante la frequenza dei vari parametri dei file "tridasmeasures.csv" e "tridasclass.csv".
 
