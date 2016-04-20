@@ -16,8 +16,7 @@ Come detto in precedenza le varie pagine con i dati sono composte di due parti:
 *Il grafico: Analizza la frequenza con cui i vari valori sono ripetuti.
 *La barra di ricerca: Inserendo il valore desiderato si aprirà una finestra dove sono visualizzati tutti i nomi dei dati che hanno il valore ricercato.
 
-RICERCA DEI VALORI
-------------------
+###RICERCA DEI VALORI
 
 La funzione denominata finder(), presente nel primo script di codice javascript, contiene al suo interno una funzione anonima che serve per prendere i dati dal corrispondente file .csv. Dopo aver fatto ciò la funzione crea una variabile denominata "numb" che prende il valore immesso nella search bar e si crea anche un array vuoto denominato "arri" nel quale, successivamente, verranno inseriti tutti i dati ricercati (teoricamente la parte dell'array può essere saltata e fare direttamente un confronto tra il valore del csv e il valore immesso e se risulta positivo visualizzare. Per completezza abbiamo implementato l'array nel caso potesse servire in un miglioramento del codice futuro).
 
@@ -25,7 +24,6 @@ Una volta ottenuto il dato in input si avrà un confronto tra i valori presenti 
 
 Alla fine della selezione dei valori il programma mostrerà l'array che contiene il nome dei valori ricercati.
 
-GRAFICO
--------
+###GRAFICO
 
 Il grafico, ad istogramma, mostra nell'asse delle ordinate la frequenza dei valori, mentre nell'asse delle ascisse i vari valori.
