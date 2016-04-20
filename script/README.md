@@ -26,4 +26,4 @@ Alla fine della selezione dei valori il programma mostrerà l'array che contiene
 
 ###GRAFICO
 
-Il grafico, ad istogramma, mostra nell'asse delle ordinate la frequenza dei valori, mentre nell'asse delle ascisse i vari valori.
+Il grafico, ad istogramma, mostra nell'asse delle ordinate la frequenza dei valori, mentre nell'asse delle ascisse i vari valori. Per creare il grafico per prima cosa bisogna creare le variabili margin, width e height. La variabile margin definisce la distanza del grafico dai bordi delle pagina. La variabile width definisce la larghezza del grafico mentre la variabile height l'altezza. La variabile svg disegna il grafico basando sul file .csv usando la funzione d3.csv.
