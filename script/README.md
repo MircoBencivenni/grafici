@@ -13,8 +13,8 @@ Nella pagina home, per esempio, selezionando la voce SourceMonitor si accederà 
 
 Come detto in precedenza le varie pagine con i dati sono composte di due parti:
 
-*Il grafico: Analizza la frequenza con cui i vari valori sono ripetuti.
-*La barra di ricerca: Inserendo il valore desiderato si aprirà una finestra dove sono visualizzati tutti i nomi dei dati che hanno il valore ricercato.
+* Il grafico: Analizza la frequenza con cui i vari valori sono ripetuti.
+* La barra di ricerca: Inserendo il valore desiderato si aprirà una finestra dove sono visualizzati tutti i nomi dei dati che hanno il valore ricercato.
 
 ###RICERCA DEI VALORI
 
